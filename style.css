@@ -399,12 +399,12 @@ footer{
 
     .blog-posts{  
         width:70%;
-        gap:30rem;
-        padding: 3rem;
+        padding: 3rem; 
         box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
         transition: var(--transition);
     }
 
+  
     form{
         box-shadow:0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
         color:#fff;
@@ -421,8 +421,7 @@ footer{
     
 
     #contact-section{
-        background-color: #5e5b5b;
-        margin-top:30rem;
+        background-color: #5e5b5b; 
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -478,22 +477,28 @@ footer{
             transition: var(--transition);
         }
 
-        #Blog-posts{
-            margin-top:40rem;
-        
+        #blog-posts{
+            display: flex; 
+            justify-content: space-between;
+            margin-bottom: 0rem;
+           
         }
 
         .blog-post{
-            width:70%;
+            width:100%;
             display: flex;
-            padding: 1rem;
+            flex-direction: column;
+            margin:5rem 0rem 0rem;
+            justify-content: space-between;
             box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
             transition: var(--transition);
         }
     
+    
         .archieves-flex {
            border-top: none;
-           border-bottom: none; 
+           border-bottom: none;
+           gap:5rem; 
         }
 }
 
@@ -549,11 +554,20 @@ footer{
     }
     .blog-post__content{
         display:flex;
-        flex-direction: row;
         width: 100%;
         padding:1rem;
         margin-left: 2rem;
         gap:1rem;
     }
+
+    #contact-section{
+        background-color: #5e5b5b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height:100vh;
+        width: 100%;
+        margin-top:0rem;
+        }
 }
 /* Responsiveness ends here */
