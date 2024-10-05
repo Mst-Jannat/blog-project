@@ -387,9 +387,8 @@ footer{
     gap:4rem;
     font-size: 1rem;
 }
-
-
 /*footer section ends here*/
+
 
 /* Responsiveness starts here */
 @media screen and (max-width: 992px) {
@@ -409,7 +408,6 @@ footer{
         box-shadow:0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
         color:#fff;
         width:90%;
-       
     }
 
     .section-center {
